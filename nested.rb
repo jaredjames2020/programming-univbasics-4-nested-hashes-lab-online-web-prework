@@ -134,4 +134,7 @@ def adding_to_dennis
         }
      }
 
+  programmer_hash[:grace_hopper][:languages] = "Assembly"
+  p programmer_hash
+
 end
