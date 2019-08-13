@@ -135,6 +135,6 @@ def adding_to_dennis
      }
 
   #programmer_hash
-  p programmer_hash[:dennis_ritchier][:languages] << ["Assembly"]
+  p programmer_hash[:dennis_ritchier][:languages][1] << ["Assembly"]
 
 end
