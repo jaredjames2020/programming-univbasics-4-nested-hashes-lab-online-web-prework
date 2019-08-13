@@ -134,7 +134,7 @@ def adding_to_dennis
         }
      }
 
-  programmer_hash[:dennis_ritchier][:languages[1]] = "Assembly"
+  programmer_hash[:dennis_ritchier][:languages = ["Assembly"[1]]
   p programmer_hash
 
 end
