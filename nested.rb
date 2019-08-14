@@ -134,7 +134,8 @@ def adding_to_dennis
         }
      }
 
-  programmer_hash = [:dennis_ritchier][:languages].insert(1, "Assembly")
+  programmer_hash = [:dennis_ritchier][:languages]
+  programmer_hash << "Assembly"
   p programmer_hash
 
 end
