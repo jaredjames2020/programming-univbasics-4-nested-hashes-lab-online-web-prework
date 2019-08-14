@@ -134,8 +134,8 @@ def adding_to_dennis
         }
      }
 
-  programmer_hash = programmer_hash[:dennis_ritchier]
-  programmer_hash.store(:languages => "Assembly")
+  programmer_hash = [:dennis_ritchier][:languages]
+  programmer_hash
   p programmer_hash
 
 end
